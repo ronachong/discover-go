@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	randomNumber := rand.Int31n(100)
+	randomNumber := rand.Intn(100)
 	school := "Holberton School"
 	beautifulWeather := true
 	holbertonFounders := []string{"Rudy Rigot", "Sylvain Kalache", "Julien Barbier"}
@@ -23,7 +23,7 @@ func main() {
 		fmt.Printf("Why %s? Everyone should go to Holberton School.\n", school)
 	}
 
-	if beautifulWeather == true {
+	if beautifulWeather {
 		fmt.Println("The weather is beautiful today.")
 	} else {
 		fmt.Println("The weather isn't so beautiful today.")

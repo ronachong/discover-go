@@ -26,9 +26,9 @@ type movieData struct {
 	Awards     string
 	Poster     string
 	Metascore  string
-	imdbRating string
-	imdbVotes  string
-	imdbID     string
+	ImdbRating string
+	ImdbVotes  string
+	ImdbID     string
 	Type       string
 	Response   string
 }
@@ -63,7 +63,7 @@ func main() {
 		log.Fatal(err)
 	}
 
-	fmt.Printf("The movie: %s was released in %s - the IMBD rating is %s with %s votes", data.Title, data.Year, data.imdbRating, data.imdbVotes)
+	fmt.Printf("The movie: %s was released in %s - the IMBD rating is %s with %s votes", data.Title, data.Year, data.ImdbRating, data.ImdbVotes)
 	return
 }
 

@@ -1,7 +1,7 @@
 package main
 
 func createStruct() data {
-	type data struct {
+	type movieData struct {
 		Title      string
 		Year       string
 		Rated      string
@@ -23,4 +23,5 @@ func createStruct() data {
 		Type       string
 		Response   string
 	}
+	return data
 }

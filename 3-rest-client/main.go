@@ -55,7 +55,7 @@ func main() {
 	log.Printf("The status code is 200 / OK.")
 
 	// parse json!
-	createStruct()      // calling function.. not sure I'm supposed to do it this way
+	//createStruct()      // calling function.. not sure I'm supposed to do it this way
 	data := movieData{} // set data to structure
 
 	err = json.Unmarshal(body, &data) //I think Franck said that this puts the data into the structure??
